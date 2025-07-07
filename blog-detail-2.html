@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<meta charset="utf-8">
+<title>Vixiotv</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!--Color Switcher Mockup-->
+<link href="css/color-switcher-design.css" rel="stylesheet">
+
+<!-- Color Themes -->
+<link id="theme-color-file" href="css/color-themes/default-color.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&amp;display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<style> .nav-link {
+	font-weight: 600;
+	color: white !important;
+	margin: 0 10px;
+  }
+  .navbar-custom {
+	background: linear-gradient(to right, #0a0f2c, #0d1e3a);
+	padding: 15px 20px;
+  }
+  .help-line {
+	display: flex;
+	align-items: center;
+	color: white;
+	gap: 10px;
+	font-weight: 500;
+  }
+  .help-line svg {
+	color: red;
+	width: 32px;
+	height: 32px;
+  }
+  .offcanvas {
+	background-color: #0a0f2c;
+  }
+  .offcanvas .nav-link {
+	color: white !important;
+  }</style>
+</head>
+
+<body>
+
+<div class="page-wrapper">
+	
+    <!-- Preloader -->
+    <div class="preloader"></div>
+	<!-- End Preloader -->
+ 	
+ 	<!-- Main Header / Header Style Two -->
+	 <nav class="navbar navbar-expand-lg navbar-custom">
+		<div class="container-fluid">
+	
+		  <!-- Logo -->
+		  <a class="navbar-brand text-white d-flex align-items-center" href="#" style="gap: 10px;">
+			<img src="https://vixiotv.com/images/logo1.png" alt="Logo" style="height: 50px;" />
+			 
+		  </a>
+	
+		  <!-- Toggle button -->
+		  <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+	
+		  <!-- Desktop Nav -->
+		  <div class="collapse navbar-collapse justify-content-center d-none d-lg-block">
+			<ul class="navbar-nav">
+			  <li class="nav-item"><a class="nav-link" href="./index-3-1.html">Home</a></li>
+			  <li class="nav-item"><a class="nav-link" href="./about.html">About Us</a></li>
+			  <li class="nav-item"><a class="nav-link" href="./services.html">Services</a></li>
+			  <li class="nav-item"><a class="nav-link" href="./team-2.html">Team</a></li>
+			  <li class="nav-item"><a class="nav-link" href="./blog-detail-2.html">Blog</a></li>
+			  <li class="nav-item"><a class="nav-link" href="./faq.html">FAQ</a></li>
+			  <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+			</ul>
+		  </div>
+	
+		  <!-- Help Line (Desktop only) -->
+		  <div class="d-none d-lg-flex help-line">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+			  <path stroke-linecap="round" stroke-linejoin="round" d="M7 10h.01M12 10h.01M17 10h.01M21 12c0 4.418-4.03 8-9 8a9.77 9.77 0 01-3.74-.734L3 21l1.395-3.72C3.512 16.086 3 14.594 3 13c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+			</svg>
+			<div>
+			  <div>Help line</div>
+			  <div style="font-weight: bold;">+66(7800) 3202</div>
+			</div>
+		  </div>
+	
+		</div>
+	  </nav>
+	
+    <!-- End Main Header -->
+	
+	<!-- Sidebar Cart Item -->
+	<div class="xs-sidebar-group info-group">
+		<div class="xs-overlay xs-bg-black"></div>
+		<div class="xs-sidebar-widget">
+			<div class="sidebar-widget-container">
+				<div class="close-button">
+					<span class="far fa-times fa-fw"></span>
+				</div>
+				<div class="sidebar-textwidget">
+					
+					<!-- Sidebar Info Content -->
+					<div class="sidebar-info-contents">
+						<div class="content-inner">
+						
+							<!-- Title Box -->
+							<div class="title-box">
+								<h5>Broadband <span>connection</span></h5>
+								<div class="price">$15 from free economy shipping</div>
+							</div>
+							
+							<!-- Empty Cart Box -->
+							<div class="empty-cart-box">
+								<!-- No Product -->
+								<div class="no-cart">
+									<span class="icon far fa-cart-plus fa-fw"></span>
+									No products in cart.
+								</div>
+							</div>
+							
+							<!-- Lower Box -->
+							<div class="lower-box">
+								<h5>Popular <span>Suggestions</span></h5>
+									
+								<!-- Post Block -->
+								<div class="post-block">
+									<div class="inner-box">
+										<div class="image">
+											<img src="images/resource/post-thumb-1.jpg" alt="" />
+										</div>
+										<h6><a href="#">Free Installation</a></h6>
+										<div class="rating">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</div>
+										<div class="price-box">$125</div>
+										<a class="theme-btn bag-btn" href="#">add to bag</a>
+									</div>
+								</div>
+								
+								<!-- Post Block -->
+								<div class="post-block">
+									<div class="inner-box">
+										<div class="image">
+											<img src="images/resource/post-thumb-2.jpg" alt="" />
+										</div>
+										<h6><a href="#">Ultra Fast Connect</a></h6>
+										<div class="rating">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</div>
+										<div class="price-box">$205</div>
+										<a class="theme-btn bag-btn" href="#">add to bag</a>
+									</div>
+								</div>
+								
+								<!-- Post Block -->
+								<div class="post-block">
+									<div class="inner-box">
+										<div class="image">
+											<img src="images/resource/post-thumb-3.jpg" alt="" />
+										</div>
+										<h6><a href="#">4K and 8K Quality</a></h6>
+										<div class="rating">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</div>
+										<div class="price-box">$25</div>
+										<a class="theme-btn bag-btn" href="#">add to bag</a>
+									</div>
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- About Sidebar -->
+	<div class="about-sidebar">
+		<div class="gradient-layer"></div>
+		<!-- Close Button -->
+		<div class="close-sidebar-widget close-button">
+			<span class="flaticon-multiply"></span>
+		</div>
+		<div class="sidebar-inner">
+			<div class="upper-box">
+				<div class="image">
+					<img src="images/resource/about-1.jpg" alt="" />
+				</div>
+				<div class="content-box">
+					<h3>About <span>Monic</span></h3>
+					<div class="text">Many desktop Wifi packages & web page editors now use Ipsum budgets dipiscing</div>
+					<ul class="about-one_list">
+						<li>Internet with 50 Mbps</li>
+						<li>Night Turbo-Speed</li>
+						<li>WiFi router & prevention</li>
+						<li>Unlimited devices</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Social Box -->
+			<div class="social-box">
+				<a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+				<a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+				<a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+				<a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+			</div>
+		</div>
+	</div>
+	<!-- End About Sidebar -->
+
+	<!-- Page Title -->
+    <section class="page-title_two" style="background-image:url(images/background/page-title-2.jpg)">
+		<div class="page-title_two-gradient" style="background-image:url(images/background/pattern-6.png)"></div>
+        <div class="auto-container">
+			<h2>Blog Detail 02</h2>
+			<ul class="bread-crumb clearfix">
+				<li><a href="./index-3-1.html">Home</a></li>
+				<li>Blog Detail 02</li>
+			</ul>
+        </div>
+    </section>
+    <!-- End Page Title -->
+
+	<!-- News Detail -->
+	<div class="news-detail_two">
+		<div class="auto-container">
+			<div class="news-detail_two-inner">
+				<div class="news-detail_two-image">
+					<img src="images/background/news.jpg" alt="" />
+				</div>
+				<div class="news-detail_two-content">
+					<div class="d-flex align-items-center justify-content-between flex-wrap">
+						<div class="news-detail_two-author">
+							<span class="author-image">
+								<img src="images/resource/author-1.jpg" alt="" />
+							</span>
+							John Smith.
+						</div>
+						<ul class="news-detail_two-meta">
+							<li><span class="icon far fa-clock fa-fw"></span>2025/03/15</li>
+							<li><span class="icon far fa-comment fa-fw"></span>07</li>
+							<li><span class="icon fas fa-eye fa-fw"></span>1,752Viewers</li>
+						</ul>
+					</div>
+					<h3 class="news-detail_two-heading">The Pros and Cons of Bundling Broadband Internet and Cable TV Services</h3>
+					<p>Bundling broadband internet and cable TV services has become a popular option for many consumers. This is when a service provider offers both services together as a package deal, often at a discounted price. While there are some advantages to bundling, there are also some disadvantages to consider. Here are the pros and cons of bundling broadband internet and cable TV services.</p>
+					<p>Designers should also focus on developing skills in areas such as user experience, user interface design, and data analysis, as these are becoming increasingly important in today's digital world. Additionally, designers should have a strong understanding of human psychology and behavior to create designs that are not only visually appealing but also functional and intuitive for users.</p>
+					<p>Bundling broadband internet and cable TV services has become a popular option for many consumers. This is when a service provider offers both services together as a package deal, often at a discounted price. While there are some advantages to bundling, there are also some disadvantages </p>
+					<p>Boardband internet has revolutionized the way we live, work, and communicate. It has connected us to the world and opened up endless possibilities for education, entertainment, and business. With a reliable and fast boardband internet connection, I feel empowered to explore, learn, and create like never before."</p>
+					<blockquote>
+						<span class="quote-icon fas fa-quote-left fa-fw"></span>
+						Broadband internet has revolutionized the way we live, work, <br> and communicate.
+						<div class="designation">- Robert Vibes</div>
+					</blockquote>
+					<div class="news-detail_two-gallery">
+						<div class="row clearfix">
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<div class="image">
+									<img src="images/resource/news-7.jpg" alt="" />
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<div class="image">
+									<img src="images/resource/news-8.jpg" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<p>In conclusion, bundling broadband internet and cable TV services can offer cost savings and convenience for consumers, but it's important to carefully consider the limitations and potential hidden fees before signing up for a package deal. It's also a good idea to compare prices and options from different service providers to ensure you're getting the best deal for your needs.</p>
+					<p>Another important aspect of preparing for the future is building a strong network and collaborating with other designers, developers, and professionals in related fields. By working together, designers can create innovative solutions and tackle complex challenges that they may not be able to accomplish on their own.</p>
+					<p>Finally, designers should also be willing to take risks and embrace failure as part of the design process. The future is uncertain, and designers need to be able to experiment</p>
+					
+					<!-- Post Share Options-->
+					<div class="post-share-options">
+						<div class="post-share-inner d-flex justify-content-between flex-wrap">
+							<div class="post-tags"><span>Tag:</span> <a href="#">online,</a> <a href="#">tv,</a> <a href="#">security,</a> <a href="#">streaming,</a><a href="#">wifi</a></div>
+							<ul class="social-links">
+								<span>share:</span>
+								<li><a href="#" class="fa-brands fa-facebook-f fa-fw"></a></li>
+								<li><a href="#" class="fa-brands fa-twitter fa-fw"></a></li>
+								<li><a href="#" class="fa-brands fa-google fa-fw"></a></li>
+								<li><a href="#" class="fa-brands fa-dribbble fa-fw"></a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="news-detail_two-author-two">
+						<div class="author-image">
+							<img src="images/resource/author-1.jpg" alt="" />
+						</div>
+						<h5 class="news-detail_two-author-two-title">About Mark John</h5>
+						<div class="news-detail_two-author-two-text">The Founder and Creative Director of GOCO, a digital creative studio in USA, has over 15 years of experience as an award-winning Creative Director/Art for clients.</div>
+					</div>
+
+					<!-- More Posts -->
+					<div class="more-posts">
+						<div class="more-posts-inner d-flex justify-content-between align-items-center flex-wrap">
+							<div class="prev-post">
+								<div class="prev-arrow fas fa-arrow-left fa-fw"></div>
+								<a href="#">Visiting the Ads of the <br> World blog is like</a>
+								<span class="more-post_date">FEBRUARY 20,2025</span>
+							</div>
+							<span class="post-grid_icon fas fa-th-large fa-fw"></span>
+							<div class="next-post">
+								<div class="next-arrow fas fa-arrow-right fa-fw"></div>
+								<div class="post-inner">
+									<a href="#">How to Create an <br> Effective Design</a>
+									<span class="more-post_date">FEBRUARY 20,2025</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End More Posts -->
+
+					<div class="alternate-news">
+						<h4 class="alternate-news_title">You also might like</h4>
+						<div class="row clearfix">
+
+							<!-- News Block -->
+							<div class="news-block_one col-lg-6 col-md-6 col-sm-12">
+								<div class="news-block_one-inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+									<div class="news-block_one-image">
+										<div class="news-block_one-date">26 <span>oct</span></div>
+										<a href="blog-detail.html"><img src="images/resource/news-1.jpg" alt="" /></a>
+									</div>
+									<div class="news-block_one-content">
+										<ul class="news-block_one-meta">
+											<li><span class="icon fas fa-comment fa-fw"></span>Comments 02</li>
+											<li><span class="icon fas fa-user fa-fw"></span>Admin</li>
+										</ul>
+										<h4 class="news-block_one-heading"><a href="blog-detail.html">Why my satelite is better than yours</a></h4>
+									</div>
+								</div>
+							</div>
+
+							<!-- News Block -->
+							<div class="news-block_one col-lg-6 col-md-6 col-sm-12">
+								<div class="news-block_one-inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+									<div class="news-block_one-image">
+										<div class="news-block_one-date">26 <span>oct</span></div>
+										<a href="blog-detail.html"><img src="images/resource/news-2.jpg" alt="" /></a>
+									</div>
+									<div class="news-block_one-content">
+										<ul class="news-block_one-meta">
+											<li><span class="icon fas fa-comment fa-fw"></span>Comments 02</li>
+											<li><span class="icon fas fa-user fa-fw"></span>Admin</li>
+										</ul>
+										<h4 class="news-block_one-heading"><a href="blog-detail.html">How to build your broadband connection</a></h4>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="comments-area">
+						<div class="group-title">
+							<h4>Post a Comment</h4>
+						</div>
+						<div class="comments-content">
+		
+							<!-- Comment Box -->
+							<div class="comment-box">
+								<div class="comment">
+									<div class="author-thumb"><img src="images/resource/author-1.jpg" alt=""></div>
+									<div class="comment-inner">
+										<ul class="comment-options">
+											<li><a href="#">Share</a></li>
+											<li><a href="#">Flag</a></li>
+										</ul>
+										<div class="comment-info"><strong>Lionalo Messiko</strong><div class="comment-time"> 1 Day Ago</div></div>
+										<div class="text">Fully agree, as long as all precautions are taken like the facemask and distancing in the photo. Bookshops are among the most vital British and that's not just English - and Western institutions, intellectually and recreationally.</div>
+										<ul class="likes-option">
+											<li><span class="fa-solid fa-thumbs-up fa-fw"></span>10</li>
+											<li><span class="fa-solid fa-thumbs-down fa-fw"></span>1</li>
+										</ul>
+										<a class="comment-reply" href="#"><span class="fa-solid fa-share fa-fw"></span> Reply</a>
+									</div>
+								</div>
+							</div>
+		
+							<!-- Comment Box -->
+							<div class="comment-box reply-comment">
+								<div class="comment">
+									<div class="author-thumb"><img src="images/resource/author-2.jpg" alt=""></div>
+									<div class="comment-inner">
+										<ul class="comment-options">
+											<li><a href="#">Share</a></li>
+											<li><a href="#">Flag</a></li>
+										</ul>
+										<div class="comment-info"><strong>Ronaldoino</strong><div class="comment-time"> 1 Day Ago</div></div>
+										<div class="text">Agency is the ability to act autonomously and freely, and in psychology the term is often used to refer to people who feel that they are able to act independently and effectively to control their own lives.</div>
+										<ul class="likes-option">
+											<li><span class="fa-solid fa-thumbs-up fa-fw"></span>10</li>
+											<li><span class="fa-solid fa-thumbs-down fa-fw"></span>1</li>
+										</ul>
+										<a class="comment-reply" href="#"><span class="fa-solid fa-share fa-fw"></span> Reply</a>
+									</div>
+								</div>
+							</div>
+		
+						</div>
+		
+						<div class="comments-content">
+		
+							<!-- Comment Box -->
+							<div class="comment-box">
+								<div class="comment">
+									<div class="author-thumb"><img src="images/resource/author-3.jpg" alt=""></div>
+									<div class="comment-inner">
+										<ul class="comment-options">
+											<li><a href="#">Share</a></li>
+											<li><a href="#">Flag</a></li>
+										</ul>
+										<div class="comment-info"><strong>Kilonia.</strong><div class="comment-time"> 1 Day Ago</div></div>
+										<div class="text">Fully agree, as long as all precautions are taken like the facemask and distancing in the photo. Bookshops are among the most vital British and that's not just English - and Western institutions, intellectually and recreationally.</div>
+										<ul class="likes-option">
+											<li><span class="fa-solid fa-thumbs-up fa-fw"></span>10</li>
+											<li><span class="fa-solid fa-thumbs-down fa-fw"></span>1</li>
+										</ul>
+										<a class="comment-reply" href="#"><span class="fa-solid fa-share fa-fw"></span> Reply</a>
+									</div>
+								</div>
+							</div>
+		
+						</div>
+		
+					</div>
+					<!-- End Comments Area -->
+		
+					<!-- Comment Form -->
+					<div class="comment-form">
+						<div class="group-title">
+							<h4>Leave a reply here</h4>
+						</div>
+						<!-- Default Form -->
+						<div class="default-form">
+							<form method="post" action="https://themerange.net/html/monic/blog.html">
+								<div class="row clearfix">
+									
+									<div class="col-lg-6 col-md-6 col-sm-12 form-group">
+										<input type="text" name="username" placeholder="Name" required="">
+									</div>
+									
+									<div class="col-lg-6 col-md-6 col-sm-12 form-group">
+										<input type="text" name="username" placeholder="Email" required="">
+									</div>
+									
+									<div class="col-lg-12 col-md-12 col-sm-12 form-group">
+										<textarea class="" name="message" placeholder="Enter your Comment"></textarea>
+									</div>
+									
+									<div class="col-lg-12 col-md-12 col-sm-12 form-group">
+										<!-- Button Box -->
+										<button type="submit" class="theme-btn btn-style-four">
+											<span class="btn-wrap">
+												<span class="text-one">send message</span>
+												<span class="text-two">send message</span>
+											</span>
+										</button>
+									</div>
+									
+								</div>
+							</form>
+						</div>
+						<!-- End Default Form -->
+					</div>
+					<!--End Comment Form -->
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- CTA Three -->
+	<section class="cta-three">
+		<div class="auto-container">
+			<div class="inner-container wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+				<div class="cta-three_pattern" style="background-image: url(images/background/cta-three_pattern.png)"></div>
+				<div class="cta-three_pattern-two" style="background-image: url(images/background/cta-three_pattern-1.png)"></div>
+				<div class="row clearfix">
+					<!-- Column -->
+					<div class="column col-lg-6 col-md-12 col-sm-12">
+						<h2 class="cta-three_title">Let's find services <br> available in your area</h2>
+					</div>
+					<!-- Column -->
+					<div class="column col-lg-6 col-md-12 col-sm-12">
+						<div class="newsletter-box_two">
+							<form method="post" action="https://themerange.net/html/monic/contact.html">
+								<div class="form-group">
+									<input type="email" name="search-field" value="" placeholder="Enter your mail" required>
+									<button type="submit" class="theme-btn">submit now</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End CTA Three -->
+
+	<!-- Main Footer -->
+	<footer class="main-footer">
+		<div class="footer_pattern" style="background-image: url(images/background/footer-pattern-1.png)"></div>
+		<div class="footer_pattern_two" style="background-image: url(images/background/footer-pattern-2.png)"></div>
+		<div class="auto-container">
+			<div class="inner-container">
+				<!-- Widgets Section -->
+				<div class="widgets-section">
+					<div class="row clearfix">
+						
+						<!-- Big Column -->
+						<div class="big-column col-lg-6 col-md-12 col-sm-12">
+							<div class="row clearfix">
+
+								<!-- Footer Column -->
+								<div class="footer_column col-lg-7 col-md-6 col-sm-12">
+									<div class="footer-widget footer-two_logo-widget">
+										<div class="footer-logo"><a href="index-2.html"><img src="images/footer-logo.png" alt="" title=""></a></div>
+										<div class="footer-text">orporate clients and leisure travelers has been relying on Groundlink for dependable safe, and professional chauffeured car service in major cities across World.</div>
+										
+									</div>
+								</div>
+
+								<!-- Footer Column -->
+								<div class="footer_column col-lg-5 col-md-6 col-sm-12">
+									<div class="footer-widget links-widget">
+										<h5 class="footer-title">Links</h5>
+										<ul class="footer-list">
+											<li><a href="#">About</a></li>
+											<li><a href="#">Contact</a></li>
+											<li><a href="#">Our Packages</a></li>
+											<li><a href="#">Services</a></li>
+											<li><a href="#">News</a></li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<!-- Big Column -->
+						<div class="big-column col-lg-6 col-md-12 col-sm-12">
+							<div class="row clearfix">
+
+								<!-- Footer Column -->
+								<div class="footer_column col-lg-6 col-md-6 col-sm-12">
+									<div class="footer-widget post-widget">
+										<h5 class="footer-title">recent post</h5>
+										<!--News Widget Block-->
+										<div class="news-widget-block">
+											<div class="news-widget_image">
+												<img src="images/resource/post-thumb-4.jpg" alt="" />
+											</div>
+											<h6 class="news-widget_title"><a href="news-detail.html">Broadband Connection Among Devices?</a></h6>
+											<div class="news-widget_post-date">January 3, 2022</div>
+										</div>
+	
+										<!--News Widget Block-->
+										<div class="news-widget-block">
+											<div class="news-widget_image">
+												<img src="images/resource/post-thumb-5.jpg" alt="" />
+											</div>
+											<h6 class="news-widget_title"><a href="news-detail.html">How Can You Change The IP From Your</a></h6>
+											<div class="news-widget_post-date">January 3, 2022</div>
+										</div>
+
+									</div>
+								</div>
+
+								<!-- Footer Column -->
+								<div class="footer_column col-lg-6 col-md-6 col-sm-12">
+									<div class="footer-widget contact-widget">
+										<h5 class="footer-title">Contact Info</h5>
+										<ul class="footer-contact_list">
+											<li><span class="icon fas fa-map-marker-alt fa-fw"></span>503 Old Buffalo Street, New York USA</li>
+											<li><span class="icon fas fa-envelope fa-fw"></span>needhelp@company.com</li>
+											<li><span class="icon fas fa-phone fa-fw"></span>+88 (9800) 6802</li>
+										</ul>
+										<!-- Social Box -->
+										<div class="footer_socials">
+											<a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+											<a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+											<a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+											<a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<div class="footer-bottom">
+			<div class="auto-container">
+				<div class="main-footer_copyright">Copyright 2025. Designed by <a href="https://themeforest.net/user/noor_tech">noor_tech</a></div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer Style -->
+
+	<!-- Search Popup -->
+	<div class="search-popup">
+		<div class="color-layer"></div>
+		<button class="close-search"><span class="far fa-times fa-fw"></span></button>
+		<form method="post" action="https://themerange.net/html/monic/blog.html">
+			<div class="form-group">
+				<input type="search" name="search-field" value="" placeholder="Search Here" required="">
+				<button type="submit"><i class="far fa-search fa-fw"></i></button>
+			</div>
+		</form>
+	</div>
+	<!-- End Search Popup -->
+
+	<!-- Color Palate / Color Switcher -->
+ 
+	<!-- End Color Palate / Color Switcher -->
+
+</div>
+<!-- End PageWrapper -->
+
+<!-- Scroll To Top -->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fas fa-arrow-up fa-fw"></span></div>
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/magnific-popup.min.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/tilt.jquery.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/parallax-scroll.js"></script>
+
+<script src="js/gsap.min.js"></script>
+<script src="js/SplitText.min.js"></script>
+<script src="js/ScrollTrigger.min.js"></script>
+<script src="js/ScrollToPlugin.min.js"></script>
+<script src="js/ScrollSmoother.min.js"></script>
+
+<script src="js/odometer.js"></script>
+<script src="js/parallax-scroll.js"></script>
+<script src="js/nav-tool.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/color-settings.js"></script>
+<script src="js/script.js"></script>
+
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+</body>
+
+<!-- Mirrored from themerange.net/html/monic/blog-detail-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Jul 2025 08:23:48 GMT -->
+</html>
